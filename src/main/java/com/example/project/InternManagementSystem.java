@@ -74,4 +74,16 @@ public class InternManagementSystem {
         System.out.println("University: " + intern1.getUniversity());
         System.out.println("Email: " + intern1.getEmail());
     }
+
+    // Get an intern by ID
+    public Intern getInternById(Long id) {
+        for (Intern intern : interns) {
+            if (intern.getId().equals(id)) {
+                return intern;
+            }
+        }
+        return null; // Return null if no intern with the specified ID is found
+    }
+
+    // ... other methods ...
 }
