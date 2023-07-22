@@ -1,5 +1,6 @@
 package com.example.project;
 
+
 public class Intern {
     private String name ;
     private int age;

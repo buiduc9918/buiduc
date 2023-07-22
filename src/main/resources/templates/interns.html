@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interns List</title>
+</head>
+<body>
+    <h1>Interns List</h1>
+    <ul>
+        <li th:each="intern : ${interns}">
+            <p th:text="${intern.name} + ' | ' + ${intern.age} + ' | ' + ${intern.university} + ' | ' + ${intern.email}"></p>
+        </li>
+    </ul>
+</body>
+</html>
