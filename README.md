@@ -4,7 +4,7 @@
 2. I đon't have anyway using it like a web page with html . i can't connect with service layer .
 thanks for all.
 23/7
-someone else help me this method in securityconfig.java in src/java/project/.:
+someone else help me this method in securityconfig.java in src/java/project/.  and nice to meet you :
  @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeRequests()
